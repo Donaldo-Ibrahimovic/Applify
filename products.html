@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+	<html lang="en">
+         <head>
+         	<title>Shopify</title>
+         <link rel="stylesheet" type="text/css" href="products.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap" rel="stylesheet">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+         </head>
+         <body>
+         <div class="container1">
+         	<div class="containeritem1">	
+            	<div class="navigationbar">
+         			<div class="logo">
+         				<img src="logo.png">
+         			</div>
+       				<nav>
+       					<ul>
+       						<li><a href="basic.html">Home</a></li>
+   	    					<li><a href="products.html">Products</a></li>        		
+    	   					<li><a href="account.html">Account</a></li>
+	         				<li><a href="aboutus.html">About us</a></li>
+	         				<li><a href="contactus.html">Contact us</a></li>
+	         				<li><a href="cart.html"><img src="carticon.jpg" class="carticon"></a></li>
+    	     			</ul>
+        	 		</nav>
+       				
+        	 	</div>	
+        	</div>
+        </div>
+<!----------start-------->
+        <div class="container2">
+        	<h1>Apple Devices</h1>
+        	<p>Purchase the newest Apple devices from Applify. You will love it.<br> From the power to the price. You can pay in parts monthly for 2 years<br><br></p>
+        	
+        	<input  id="searchbar" onkeyup="searchitem()" type="text" placeholder="Search for models.." title="Type in a name">
+         	
+         	<div class="items">
+         	<ul class="featuredrow">
+         		<li class="featureditems">
+       				<img src="iphone13promax.jpg" onmouseover="this.src='iphone13promaxover.jpg'" onmouseout="this.src='iphone13promax.jpg'">
+       				<h4>Iphone 13 Pro Max</h4>
+       				<p>€1249</p>
+       				<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked "><br></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+       			</li>
+       			<li class="featureditems">
+					<img src="ipad1.jpg" onmouseover="this.src='ipad1over.jpg'" onmouseout="this.src='ipad1.jpg'">
+         			<h4>IPad Air</h4>
+         			<p>€379</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>		  <span class="fa fa-star "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="macbook.jpg" onmouseover="this.src='macbookover.jpg'" onmouseout="this.src='macbook.jpg'">
+       				<h4>Macbook Pro M1 (2020)</h4>
+       				<p>€1543</p>
+       				<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+       			<li class="featureditems">
+       				<img src="airtag.jpg" onmouseover="this.src='airtagover.jpg'" onmouseout="this.src='airtag.jpg'">
+       				<h4>Airtag </h4>
+       				<p>€35</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+       			</li>
+       			
+       		
+         		<li class="featureditems">
+         			<img src="ipad2.jpg" onmouseover="this.src='ipad2over.jpg'" onmouseout="this.src='ipad2.jpg'">
+         			<h4>IPad M1</h4>
+       				<p>€379</p>
+       				<span class="fa fa-star checked"></span>
+       				<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star "></span>
+					<span class="fa fa-star "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="imac.jpg" onmouseover="this.src='imacover.jpg'" onmouseout="this.src='imac.jpg'">
+         			<h4>Apple IMac 2020</h4>
+         			<p>€899</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="iphone12.jpg" onmouseover="this.src='iphone12over.jpg'" onmouseout="this.src='iphone12.jpg'">
+         			<h4>Iphone 12 </h4>
+         			<p>€800</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="magickeyboard.jpg" onmouseover="this.src='magickeyboardover.jpg'" onmouseout="this.src='magickeyboard.jpg'">
+         			<h4>Apple Magic Keyboard IPad</h4>
+         			<p>€329</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>		  <span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         	
+            
+         		<li class="featureditems">
+         			<img src="airpods2.jpg" onmouseover="this.src='airpods2over.jpg'" onmouseout="this.src='airpods2.jpg'">
+         			<h4>Airpods 2nd generation</h4>
+       				<p>€128</p>
+       				<span class="fa fa-star checked"></span>
+       				<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="iphone12promax.jpg" onmouseover="this.src='iphone12promaxover.jpg'" onmouseout="this.src='iphone12promax.jpg'">
+         			<h4>Iphone 12 Pro Max</h4>
+         			<p>€899</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="macbookM1.jpg" onmouseover="this.src='macbookM1over.jpg'" onmouseout="this.src='macbookM1.jpg'">
+         			<h4>MacBook M1 Air</h4>
+         			<p>€999</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="imacpro.jpg" onmouseover="this.src='imacproover.jpg'" onmouseout="this.src='imacpro.jpg'">
+         			<h4>IMac Pro</h4>
+         			<p>€5489</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>		  <span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         	
+         		<li class="featureditems">
+         			<img src="airpodspro.jfif" onmouseover="this.src='airpodsproover.jfif'" onmouseout="this.src='airpodspro.jfif'">
+         			<h4>AirPods Pro</h4>
+       				<p>€199</p>
+       				<span class="fa fa-star checked"></span>
+       				<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="ipad3.jpg" onmouseover="this.src='ipad3over.jpg'" onmouseout="this.src='ipad3.jpg'">
+         			<h4>IPad Pro</h4>
+         			<p>€879</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="macbookpro16inch.jpg" onmouseover="this.src='macbookpro16inchover.jpg'" onmouseout="this.src='macbookpro16inch.jpg'">
+         			<h4>MacBook Pro 16-inch </h4>
+         			<p>€1899</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="iphone13.jpg" onmouseover="this.src='iphone13over.jpg'" onmouseout="this.src='iphone13.jpg'">
+         			<h4>IPhone 13</h4>
+         			<p>€899</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>		  <span class="fa fa-star checked"></span>
+					<span class="fa fa-star "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="macbookairm1.jpg" onmouseover="this.src='macbookairm1over.png'" onmouseout="this.src='macbookairm1.jpg'">
+         			<h4>MacBook Air M1(2020)</h4>
+       				<p>€999</p>
+       				<span class="fa fa-star checked"></span>
+       				<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star  "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="ipad3.jpg" onmouseover="this.src='ipad3over.jpg'" onmouseout="this.src='ipad3.jpg'">
+         			<h4>IPad Pro</h4>
+         			<p>€879</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="macbookpro14.jpg" onmouseover="this.src='macbookpro14over.jpg'" onmouseout="this.src='macbookpro14.jpg'">
+         			<h4>MacBook Pro 14(2021) </h4>
+         			<p>€2071</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         		<li class="featureditems">
+         			<img src="ipadair4.jpg" onmouseover="this.src='ipadair4over.jpg'" onmouseout="this.src='ipadair4.jpg'">
+         			<h4>IPad Air 4</h4>
+         			<p>€475</p>
+         			<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>		  <span class="fa fa-star checked"></span>
+					<span class="fa fa-star "></span>
+					<div class="addcart"><br><button onclick="sendEmail()">Add to cart</button></div>
+         		</li>
+         	</ul>
+         	</div>
+        </div> 
+
+<!-------------------------------footer----------------->
+         	<div class="footer">
+         		<div class="container5">
+         			<div class="footerrow">
+         				<div class="footeritem1">
+         					<em>Download Our App</em>
+         					<p>Download app for Android and IOS mobile phone now for free!</p>
+         					<a href="https://play.google.com/store/games?gl=DE" class="downloadbadge" target="_blank"><img src="playstiorebadge.jpg" ></a>
+         					<a href="https://www.apple.com/app-store/" class="downloadbadge" target="_blank"><img src="applebadge.jpg"></a>
+         				</div>
+         				<div class="footeritem2">
+         					<div class="footerlogo">
+         						<img src="logo.png">
+         						<p>Our mission is to continously make the pleasure and the service for the costumers of Applify's apple devices forever!</p>
+         					</div>
+         			    </div>
+         			    <div class="footeritem3">
+         			    	
+         			    	<em>Menu<br></em>
+         			    	
+         					<li class="footermenu"><a href="basic.html">Home</a></li>
+         					<li class="footermenu2"><a href="products.html">Products</a></li>
+         					<li class="footermenu2"><a href="account.html">Account</a></li>
+         					<li class="footermenu2"><a href="aboutus.html">About us</a></li>
+         					<li class="footermenu2"><a href="contactus.html">Contact us</a></li>
+         					
+         			    </div>
+         			    <div class="footeritem4">
+         			    	<em>Follow Us<br></em>
+         			    	
+         						<li class="footermenu"><a href="https://www.instagram.com/">Instagram</a></li>
+         					<li class="footermenu2"><a href="https://www.twitter.com/">Twitter</a></li>
+         					<li class="footermenu2"><a href="https://www.facebook.com/">Facebook</a></li>
+         					
+         			    </div>
+
+         		    </div>
+         		    
+         			    
+         	    </div>
+         	</div>
+         	<script type="text/javascript" src="main.js" async></script>
+         	
+        </body>
+    </html>    

@@ -1,0 +1,408 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Tiro Bangla', serif;
+
+}
+.navigationbar{
+	display: flex;
+	
+	padding: 20px;
+}
+.logo img{
+	width: 80%;
+	padding-left: 10%;
+	
+}
+nav{
+	flex: auto;
+	text-align: right;
+}
+ul{
+	display: -webkit-box;
+	list-style-type: none;
+}
+li {
+    display: flex;
+    margin-right: 3%;
+    margin-top: 25px;
+}
+li a{
+    color: orange;
+    text-decoration: none;
+    font-size: 26px;
+
+}
+li a:hover{
+	color: white;
+	background-color: orange;
+	text-decoration: none;	
+}
+.carticon{
+	height: 30px;
+	width: 30px;
+}
+.container1{
+	max-width: 1300px;
+	margin: auto;
+	
+}
+.container2{
+	margin: auto;
+	max-width: 1080px;
+    padding-left:25px ;
+    padding-right: 25px;
+    margin-top: 50px;
+}
+.container2 h1{
+	margin-left: 25px;
+	
+}
+.searchicon {
+	width: 40px;
+}
+
+.container2 p{
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.featuredrow{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+.featureditems{
+	display: inline-block;
+	flex-basis: 22%;
+	padding: 10px;
+	min-width: 200px;
+	max-height: 310px;
+	transition: transform 0.5s;
+    border-style: inset;
+	cursor: pointer;
+	transition: transform 0.5;
+
+}
+.addcart{
+	text-align: right;
+	margin-right: 1%;
+	margin-top: -8%;
+}
+.featureditems img{
+	width: 100%;
+	height: 180px;
+}
+.featureditems:hover{
+	transform: translateY(-5px);
+}
+.checked {
+  color: orange;
+}
+.checked1 {
+  color: orange;
+  margin-left: 90px;
+}
+#searchbar {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 94%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-left: 25px;
+}
+.container5{
+	margin-top: 100px;
+	background-color: black;
+	width: 100%;
+}
+.footerrow{
+	padding-top: 85px;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+}
+.footeritem1{
+    text-align: left;
+    
+}
+.footeritem1 em{
+	color: white;
+	text-align: left;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+}
+.footeritem1 p{
+	margin-top: 15px;
+	color: white;
+	font-size: 70%;
+
+}
+.downloadbadge img{
+	margin-top: 15px;
+	width: 140px;
+}
+.footerlogo img{
+	align-items: center;
+	max-width: 35%;
+	border-radius: 20%;
+}
+.footeritem2{
+	
+	padding-left: 3%;
+    text-align: center;
+    flex-basis: 35%;
+}
+.footeritem2 p{
+	margin-top: 15px;
+	color: white;
+	font-size: 70%;
+
+}
+.footeritem3{
+	
+	padding-left: 3%;
+    flex-basis: 20%;
+    display: table;
+}
+.footeritem3 em{
+	color: white;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+    padding-bottom: 15px;
+    }
+
+.footermenu{
+	color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 70%;
+	display: block;
+    margin-top: 15px;
+    margin-right: 0px;
+
+}
+.footermenu2{
+	color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 70%;
+	display: block;
+    margin-top: 0px;
+    margin-right: 0px;
+
+}
+.footeritem3 li a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 70%;
+}
+
+.footeritem4 em{
+	color: white;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+    padding-bottom: 15px;
+    }
+    .footeritem4 li a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 70%;
+}
+/*------------cart------------*/
+.cartpage{
+	margin: 80px auto;
+}
+table{
+	margin-top: 100px;
+	width: 80%;
+	text-align: center;
+	border-collapse: collapse;
+}
+.cartinfo img{
+	height: 80px;
+	width: 80px;
+	margin-right: 10px;
+}
+.cartinfo{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+th{
+	text-align: center;
+	padding: 5px;
+	color: white;
+	background: orange;
+	font-weight: normal;
+	
+}
+td{
+	padding: 10px 5px;
+}
+td input{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+td a{
+	color: orange;
+	font-size: 12px;
+}
+.totalprice{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20%;
+}
+.totalprice table{
+	border-top: 3px solid orange;
+	width: 100%;
+	max-width: 400px;
+}
+td:last-child{
+	text-align: right;
+}
+th:last-child{
+	text-align: right;
+}
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+	nav{
+	display: contents;
+	justify-content: center;
+
+}
+li a{
+    font-size: 20px;
+
+}
+.logo{
+	width: 40%;
+}
+.downloadbadge img {
+    width: 100px;
+}
+}
+@media screen and (max-width: 800px) and (min-width: 601px){
+li a{
+    font-size: 14px;
+
+}
+	.logo{
+	margin-top:10px;
+	width: 30%;
+}
+.carticon {
+    height: 20px;
+    width: 20px;
+}
+.container2 h1 {
+    margin-left: 25px;
+	font-size:26px;	
+}
+.container2 p{
+	font-size:14px;
+}	
+#searchbar {
+    width: 85%;
+    font-size: 14px;
+	height:40px;
+}
+.featureditems{
+	min-width: 150px;
+    max-height: 310px;
+}
+.featureditems img {
+    width: 80%;
+    height: 140px;
+}
+.footeritem2 p {
+    margin-top: 10px;
+    font-size: 55%;
+}
+.footeritem3 em {
+    font-size: 100%;
+}
+.footeritem4 em {
+    font-size: 100%;
+}
+.footeritem1 em {
+    font-size: 100%;
+}
+.footerrow{
+	padding-top:10%;
+	padding-left: 5%;
+    padding-right: 5%;
+}		
+.downloadbadge img {
+    width: 100px;
+}
+}
+@media screen and (max-width: 600px){
+.navigationbar {
+    padding: 10px;
+}
+	li a{
+    font-size: 10px;
+}
+.carticon {
+    height: 15px;
+    width: 15px;
+}	
+.logo{
+	margin-top:20px;
+	width: 15%;
+}
+	.container2 h1 {
+    margin-left: 25px;
+	font-size:16px;	
+}
+.container2 p{
+	font-size:10px;
+}	
+#searchbar {
+    width: 75%;
+    font-size: 10px;
+	height:25px;
+}
+.featureditems{
+	min-width: 150px;
+    max-height: 310px;
+}
+.featureditems img {
+    width: 80%;
+    height: 140px;
+}
+.footeritem2 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+.footeritem3 em {
+    font-size: 70%;
+}
+.footeritem4 em {
+    font-size: 70%;
+}
+.footeritem1 em {
+    font-size: 70%;
+}
+.downloadbadge img {
+    width: 70px;
+}
+.footeritem1 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+	
+}

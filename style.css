@@ -1,0 +1,723 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Tiro Bangla', serif;
+
+}
+.navigationbar{
+	display: flex;
+	padding: 20px;
+}
+.logo img{
+	height:50px;
+	width: 200px;
+	margin:10%;
+}
+nav{
+	flex: auto;
+	text-align: center;
+}
+ul{
+	display: -webkit-inline-box;
+	list-style-type: none;
+}
+li {
+    display: flex;
+    margin-right: 5%;
+    margin-top: 25px;
+}
+li a{
+    color: orange;
+    text-decoration: none;
+    font-size: 26px;
+
+}
+li a:hover{
+	color: white;
+	background-color: orange;
+	text-decoration: none;	
+}
+.carticon{
+	height: 30px;
+	width: 30px;
+}
+.container1{
+	max-width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	background:whitesmoke;
+}
+.containeritem2{
+	margin-top: 25px;
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+.mainpage{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.mainpage img{
+	max-width: 120%;
+	margin-left: -20%;
+}
+.mainpage h1{
+	font-size: 50px;
+	margin-top: -50px;
+	margin-left:10%;
+}
+.mainpage p{
+	margin-top: 30px;
+	margin-left:10%;
+}
+.button{
+	display: inline-block;
+	background: orange;
+	color: black;
+	padding: 8px 30px;
+	margin: 10px 10%;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.button:hover{
+	background-color: black;
+	color: orange;
+}
+.container2{
+	margin:70px 0px;
+}
+.container2-1{
+	max-width: 1080px;
+	margin: auto;
+	padding: 0px 45px;
+}
+.topmodel{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+
+}
+.topiitem{
+	text-align: center;
+	flex-basis:2%;
+	width: 250px;
+	height: 200px;
+	margin-bottom: 30px;
+	text-align:center;
+}
+.topiitem img{
+	width: 200px;
+	height: 170px;
+}
+.featuredAppleIphones{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	height: 60px;
+	padding:8px;
+	color: white;
+	background-color: orange;
+	border-style: double;
+	border-radius: 45%;
+	border-color: black;
+	width: 400px;
+}
+.checked{
+	color: orange;
+}
+.container3{
+	max-width: 1080px;
+	margin: auto;
+	padding-right:25px;
+	padding-left: 25px;
+}
+.featuredrow{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+.featureditems{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.featureditems img{
+	width: 150px;
+	height: 140px;
+}
+.macbookproducts{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	height: 60px;
+	padding:8px;
+	color: white;
+	background-color: orange;
+	border-style: double;
+	border-radius: 45%;
+	border-color: black;
+	width: 400px;
+}
+.more{
+	text-align: end;
+}
+.container4{
+	background: radial-gradient(#fff,#ffd6d6);
+	margin-top: 80px;
+	padding: 30px 0px;
+}
+.offerrow{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+.offerpic img{
+	padding: 20px 50px;
+	height:300px;
+}
+.offerdescribtion small{
+	color: black;	
+}
+.button2{
+	display: inline-block;
+	background: orange;
+	color: black;
+	padding: 8px 30px;
+	margin-top: 10px;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.button2:hover{
+	background-color: black;
+	color: orange;
+}
+.ratings{
+	padding-top: 100px;
+}
+.small-container{
+
+}
+.ratingsrow{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+}
+.ratingscol{
+	width: 250px;
+	height: 350px;
+	margin-bottom: 30px;
+	text-align:center;
+	padding: 40px 20px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+.ratingscol img{
+	width: 50px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+
+
+.container5{
+	margin-top: 100px;
+	background-color: black;
+	width: 100%;
+	
+}
+.footerrow{
+	padding-top: 85px;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+}
+.footeritem1{
+    text-align: left;
+    
+}
+.footeritem1 em{
+	color: white;
+	text-align: left;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+}
+.footeritem1 p{
+	margin-top: 15px;
+	color: white;
+	font-size: 70%;
+
+}
+.downloadbadge img{
+	margin-top: 15px;
+	width: 140px;
+}
+.footerlogo img{
+	align-items: center;
+	max-width: 35%;
+	border-radius: 20%;
+}
+.footeritem2{
+	
+	padding-left: 3%;
+    text-align: center;
+    flex-basis: 35%;
+}
+.footeritem2 p{
+	margin-top: 15px;
+	color: white;
+	font-size: 70%;
+
+}
+.footeritem3{
+	
+	padding-left: 3%;
+    flex-basis: 20%;
+    display: table;
+}
+.footeritem3 em{
+	color: white;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+    padding-bottom: 15px;
+    }
+
+.footermenu{
+	color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 70%;
+	display: block;
+    margin-top: 15px;
+    margin-right: 0px;
+
+}
+.footermenu2{
+	color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 70%;
+	display: block;
+    margin-top: 0px;
+    margin-right: 0px;
+
+}
+.footeritem3 li a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 70%;
+}
+
+.footeritem4 em{
+	color: white;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+    padding-bottom: 15px;
+    }
+    .footeritem4 li a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 70%;
+}
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+	nav{
+	margin-top: 25px;
+}
+li a{
+    font-size: 18px;
+
+}
+.logo{
+	margin-top:10px;
+	width: 30%;
+}
+.mainpage img{
+	max-width: 110%;
+	margin-left: -10%;
+}
+.mainpage h1{
+	font-size: 40px;
+	margin-top: -40px;
+	margin-left:10%;
+}
+.mainpage p{
+	margin-top: 26px;
+	margin-left:10%;
+}
+.featureditems{
+	min-width: 0px;
+}
+.downloadbadge img {
+    width: 120px;
+}	
+}
+@media screen and (max-width: 800px) and (min-width: 601px) {
+nav{
+	display: contents;
+	justify-content: center;
+
+}
+li a{
+    font-size: 16px;
+
+}
+.logo img{
+	height:30px;
+	width: 100px;
+	margin:-10%;
+	margin-top:18px;
+	margin-right:10px
+}
+.mainpage{
+	flex-basis: 40%;
+	min-width: 0px;
+}
+.button{
+	
+	padding: 2px 25px;
+	margin: 10px 10%;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+h3 {
+    font-size: 18px;
+}
+p {
+    font-size: 14px;
+}
+ em {
+    font-size: 14px;
+}
+
+
+.mainpage img{
+	max-width: 130%;
+	margin-left: -12%;
+}
+.mainpage h1{
+	font-size: 30px;
+	margin-top: -30px;
+	margin-left:10%;
+}
+.mainpage p{
+	margin-top: 26px;
+	margin-left:10%;
+}
+.topiitem{
+	width: 150px;
+	height: 250px;
+	margin-bottom: 30px;
+	text-align:center;
+}
+.topiitem img{
+	width: 150px;
+	height: 120px;
+}
+.featureditems{
+	min-width: 0px;
+}
+.featureditems img{
+	width: 120px;
+	height: 100px;
+}
+.offerpic img{
+	padding: 0px 0px;
+	height:100px;
+}
+.offerdescribtion small{
+	font-size: 10px;	
+}
+.offerdescribtion h1{
+	font-size: 24px;	
+}	
+.ratingscol{
+	width: 180px;
+}
+
+.footeritem2 p {
+    margin-top: 10px;
+    font-size: 55%;
+}
+.footeritem3 em {
+    font-size: 100%;
+}
+.footeritem4 em {
+    font-size: 100%;
+}
+.footeritem1 em {
+    font-size: 100%;
+}
+.footerrow{
+	padding-top:10%;
+	padding-left: 5%;
+    padding-right: 5%;
+}	
+.downloadbadge img {
+    width: 100px;
+}
+}
+@media screen and (max-width: 600px) and (min-width: 451px) {
+nav{
+	display: contents;
+	justify-content: center;
+
+}
+li a{
+    font-size: 12px;
+
+}
+.logo{
+	margin-top:25px;
+	width: 30%;
+}
+.carticon {
+    height: 15px;
+    width: 15px;
+}
+.logo img{
+	height:30px;
+	width: 100px;
+	margin:-10%;
+	margin-right:10px
+}
+.mainpage{
+	flex-basis: 40%;
+	min-width: 0px;
+}
+.button{
+	padding: 2px 10px;
+	margin: 10px 5%;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+h3 {
+    font-size: 18px;
+}
+p {
+    font-size: 14px;
+}
+ em {
+    font-size: 14px;
+}
+
+
+.mainpage img{
+	max-width: 140%;
+	margin-left: -14%;
+}
+.mainpage h1{
+	font-size: 24px;
+	margin-top: -20px;
+	margin-left:0%;
+}
+.mainpage p{
+	margin-top: 26px;
+	margin-left:0%;
+}
+.featuredAppleIphones{
+	margin: 80px;
+	font-size: 20px;
+	height: 45px;
+	width: 300px;
+}	
+.topiitem{
+	width: 150px;
+}
+.topiitem img{
+	width: 120px;
+	height: 100px;
+}
+.featureditems{
+	min-width: 200px;
+}
+.featureditems img{
+	width: 120px;
+	height: 100px;
+}
+
+.offerpic img{
+	padding: 0px 0px;
+	height:100px;
+}
+.offerdescribtion small{
+	font-size: 10px;	
+}
+.offerdescribtion h1{
+	font-size: 24px;	
+}
+.offerdescribtion a{
+	text-align: center;
+}
+.button2{
+	margin-left:27%;
+	width: 150px;
+}	
+.ratingscol{
+	width: 135px;
+	height: 410px;
+}	
+.footeritem2 p {
+    margin-top: 10px;
+    font-size: 55%;
+}
+.footeritem3 em {
+    font-size: 100%;
+}
+.footeritem4 em {
+    font-size: 100%;
+}
+.footeritem1 em {
+    font-size: 100%;
+}
+.footerrow{
+	padding-top:10%;
+	padding-left: 5%;
+    padding-right: 5%;
+}	
+.downloadbadge img {
+    width: 100px;
+}
+}
+@media screen and (max-width: 450px){
+li a{
+    font-size: 8px;
+	margin-left:-20%;
+}
+.logo{
+	margin-top:20px;
+	width: 20%;
+}
+.carticon {
+    height: 15px;
+    width: 15px;
+}
+.logo img{
+	height:20px;
+	width: 70px;
+	margin:-10%;
+	margin-right:10px
+}
+.mainpage{
+	flex-basis: 100%;
+	min-width: 0px;
+	text-align: center;
+}
+.button{
+	padding: 2px 10px;
+	margin: 10px 5%;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+h3 {
+    font-size: 18px;
+}
+p {
+    font-size: 14px;
+	text-align: center;
+}
+ em {
+    font-size: 14px;
+}
+
+
+.mainpage img{
+	display: none;
+	max-width: 140%;
+	margin-left: -14%;
+}
+.mainpage h1{
+	font-size: 24px;
+	margin-top: -20px;
+	margin-left:0%;
+}
+.mainpage p{
+	margin-top: 26px;
+	margin-left:0%;
+}
+.featuredAppleIphones{
+	margin: 60px;
+	font-size: 16px;
+	height: 45px;
+	width: 200px;
+}	
+.topiitem{
+	width: 150px;
+}
+.topiitem img{
+	width: 120px;
+	height: 100px;
+}
+.featureditems{
+	min-width: 150px;
+}
+.featureditems img{
+	width: 120px;
+	height: 100px;
+}
+.macbookproducts{
+	margin: 60px;
+	font-size: 16px;
+	height: 45px;
+	width: 200px;
+}
+.offerpic img{
+	padding: 0px 0px;
+	height:100px;
+}
+.offerdescribtion small{
+	font-size: 10px;
+.offerdescribtion p{
+	text-align: center;
+}	
+}
+.offerdescribtion h1{
+	font-size: 24px;
+	text-align: center;
+}
+.offerdescribtion a{
+	text-align: center;
+}
+.button2{
+	margin-left:27%;
+	width: 150px;
+}
+.footeritem2 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+.footeritem3 em {
+    font-size: 70%;
+}
+.footeritem4 em {
+    font-size: 70%;
+}
+.footeritem1 em {
+    font-size: 70%;
+}
+.downloadbadge img {
+    width: 60px;
+}
+.footeritem1 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+}

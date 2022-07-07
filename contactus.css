@@ -1,0 +1,420 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Tiro Bangla', serif;
+
+}
+.navigationbar{
+	display: flex;
+	
+	padding: 20px;
+}
+.logo img{
+	width: 80%;
+	padding-left: 10%;
+	
+}
+nav{
+	flex: auto;
+	text-align: right;
+}
+ul{
+	display: -webkit-box;
+	list-style-type: none;
+}
+li {
+    display: flex;
+    margin-right: 3%;
+    margin-top: 25px;
+}
+li a{
+    color: orange;
+    text-decoration: none;
+    font-size: 26px;
+
+}
+li a:hover{
+	color: white;
+	background-color: orange;
+	text-decoration: none;	
+}
+.carticon{
+	height: 30px;
+	width: 30px;
+}
+.container1{
+	max-width: 1300px;
+	margin: auto;
+	
+}
+.container2{
+	background: radial-gradient(#fff,#ffd6d6);
+	margin-top: 20px;
+	padding: 30px 0;
+}
+	
+.describtion{
+	display: grid;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.container3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+.contactusrow{
+	display: contents;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 400px;
+	padding-top: 10px;
+}
+.sections{
+	padding-top: 10px;
+	background-color: #AFE1AF;
+	flex-basis: 22%;
+	text-align: center;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+	border-style: solid;
+	height: 250px;
+}
+
+.section{
+	background-color: #AFE1AF;
+	padding-top: 10px;
+	flex-basis: 22%;
+	border-style: solid;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+	height: 250px;
+	margin-left: 1%;
+}
+.section img{
+	margin-top: 10px;
+	padding-bottom: 20px;
+	width: 40%;
+    
+}
+.sections img{
+	margin-top: 10px;
+	padding-bottom: 20px;
+	width: 40%; 
+}
+.sections h4{
+	margin-bottom: 10px;
+}
+.section h4{
+	margin-bottom: 10px;
+}
+.button{
+	background: white;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 15%;
+}
+.button1{
+	margin-left: 1%;
+	padding-bottom: 1%;
+    padding-top: 2%;
+	background: white;
+	border-radius: 10%;
+	text-decoration: none;
+	font-size: 12px;
+}
+.search{
+	width: 140px;
+	font-family: initial;
+}
+.container5{
+	margin-top: 100px;
+	background-color: black;
+	width: 100%;
+}
+.footerrow{
+	padding-top: 85px;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+}
+.footeritem1{
+    text-align: left;
+    
+}
+.footeritem1 em{
+	color: white;
+	text-align: left;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+}
+.footeritem1 p{
+	margin-top: 15px;
+	color: white;
+	font-size: 70%;
+
+}
+.downloadbadge img{
+	margin-top: 15px;
+	width: 140px;
+}
+.footerlogo img{
+	align-items: center;
+	max-width: 35%;
+	border-radius: 20%;
+}
+.footeritem2{
+	
+	padding-left: 3%;
+    text-align: center;
+    flex-basis: 35%;
+}
+.footeritem2 p{
+	margin-top: 15px;
+	color: white;
+	font-size: 70%;
+
+}
+.footeritem3{
+	
+	padding-left: 3%;
+    flex-basis: 20%;
+    display: table;
+}
+.footeritem3 em{
+	color: white;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+    padding-bottom: 15px;
+    }
+
+.footermenu{
+	color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 70%;
+	display: block;
+    margin-top: 15px;
+    margin-right: 0px;
+
+}
+.footermenu2{
+	color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 70%;
+	display: block;
+    margin-top: 0px;
+    margin-right: 0px;
+
+}
+.footeritem3 li a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 70%;
+}
+
+.footeritem4 em{
+	color: white;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+    padding-bottom: 15px;
+    }
+    .footeritem4 li a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 70%;
+}
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+nav{
+	display: contents;
+	justify-content: center;
+
+}
+li a{
+    font-size: 20px;
+
+}
+.logo{
+	width: 40%;
+}
+.downloadbadge img {
+    width: 120px;
+}
+}
+
+@media screen and (max-width: 800px) and (min-width:601px) {
+	nav{
+	display: contents;
+	justify-content: center;
+
+}
+	li a{
+    font-size: 14px;
+
+}
+	.logo{
+	margin-top:10px;
+	width:30%;
+}
+	.carticon {
+    height:20px;
+    width: 20px;
+}
+.logo{
+	width: 40%;
+}
+.footeritem2 p {
+    margin-top: 10px;
+    font-size: 55%;
+}
+.footeritem3 em {
+    font-size: 100%;
+}
+.footeritem4 em {
+    font-size: 100%;
+}
+.footeritem1 em {
+    font-size: 100%;
+}
+.footerrow{
+	padding-top:10%;
+	padding-left: 5%;
+    padding-right: 5%;
+}
+	.downloadbadge img {
+    width: 100px;
+}
+}
+@media screen and (max-width: 600px) and (min-width:451px) {
+li a{
+    font-size: 10px;
+	margin-left:-20%;
+}
+.logo{
+	margin-top:17px;
+	width: 30%;
+}
+.carticon {
+    height: 15px;
+    width: 15px;
+}
+.describtion h1{
+	font-size:26px;
+}
+	.describtion p{
+	font-size:14px;
+}
+.search {
+    width: 80px;
+}
+.section {
+    height: 210px;
+	margin-bottom:-20px;
+}
+.sections {
+    height: 210px;
+	margin-bottom:-20px;
+}
+.sections h4 {
+    font-size: 12px;
+}
+.section h4 {
+    font-size: 12px;
+}
+.button {
+    font-size: 11px;
+    border-radius: 15%;
+}
+.footeritem2 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+.footeritem3 em {
+    font-size: 70%;
+}
+.footeritem4 em {
+    font-size: 70%;
+}
+.footeritem1 em {
+    font-size: 70%;
+}
+.downloadbadge img {
+    width: 70px;
+}
+.footeritem1 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+}
+@media screen and (max-width: 450px){
+li a{
+    font-size: 10px;
+	margin-left:-20%;
+}
+.logo{
+	margin-top:17px;
+	width: 30%;
+}
+.carticon{
+    height: 15px;
+    width: 15px;
+}
+.describtion h1{
+	font-size:26px;
+}
+	.describtion p{
+	font-size:14px;
+}
+.search {
+    width: 60px;
+}
+.section {
+    height: 200px;
+	margin-bottom:-20px;
+}
+.sections {
+    height: 200px;
+	margin-bottom:-20px;
+}
+.sections h4 {
+    font-size: 12px;
+}
+.section h4 {
+    font-size: 12px;
+	margin-bottom:0px;
+}
+.button {
+    font-size: 11px;
+    border-radius: 15%;
+}
+.footeritem2 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+.footeritem3 em {
+    font-size: 70%;
+}
+.footeritem4 em {
+    font-size: 70%;
+}
+.footeritem1 em {
+    font-size: 70%;
+}
+.downloadbadge img {
+    width: 60px;
+}
+.footeritem1 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+}

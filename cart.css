@@ -1,0 +1,384 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Tiro Bangla', serif;
+
+}
+.navigationbar{
+	display: flex;
+	
+	padding: 20px;
+}
+.logo img{
+	width: 80%;
+	padding-left: 10%;
+	
+}
+nav{
+	flex: auto;
+	text-align: right;
+}
+ul{
+	display: -webkit-box;
+	list-style-type: none;
+}
+li {
+    display: flex;
+    margin-right: 3%;
+    margin-top: 25px;
+}
+li a{
+    color: orange;
+    text-decoration: none;
+    font-size: 26px;
+
+}
+li a:hover{
+	color: white;
+	background-color: orange;
+	text-decoration: none;	
+}
+.carticon{
+	height: 30px;
+	width: 30px;
+}
+.container1{
+	max-width: 1300px;
+	margin: auto;
+	
+}
+.cartpage{
+	margin: 80px auto;
+}
+table{
+	margin-top: 100px;
+	width: 80%;
+	text-align: center;
+	border-collapse: collapse;
+}
+.cartinfo img{
+	height: 80px;
+	width: 80px;
+	margin-right: 10px;
+}
+.cartinfo{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+th{
+	text-align: center;
+	padding: 5px;
+	color: white;
+	background: orange;
+	font-weight: normal;
+	
+}
+td{
+	padding: 10px 5px;
+}
+td input{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+td a{
+	color: orange;
+	font-size: 12px;
+}
+.totalprice{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20%;
+}
+.totalprice table{
+	border-top: 3px solid orange;
+	width: 100%;
+	max-width: 400px;
+}
+td:last-child{
+	text-align: right;
+}
+th:last-child{
+	text-align: right;
+}
+.container5{
+	margin-top: 100px;
+	background-color: black;
+	max-width: 100%;
+}
+.footerrow{
+	padding-top: 85px;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+}
+.footeritem1{
+    text-align: left;
+    
+}
+.footeritem1 em{
+	color: white;
+	text-align: left;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+}
+.footeritem1 p{
+	margin-top: 15px;
+	color: white;
+	font-size: 70%;
+
+}
+.downloadbadge img{
+	margin-top: 15px;
+	width: 140px;
+}
+.footerlogo img{
+	align-items: center;
+	max-width: 35%;
+	border-radius: 20%;
+}
+.footeritem2{
+	
+	padding-left: 3%;
+    text-align: center;
+    flex-basis: 35%;
+}
+.footeritem2 p{
+	margin-top: 15px;
+	color: white;
+	font-size: 70%;
+
+}
+.footeritem3{
+	
+	padding-left: 3%;
+    flex-basis: 20%;
+    display: table;
+}
+.footeritem3 em{
+	color: white;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+    padding-bottom: 15px;
+    }
+
+.footermenu{
+	color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 70%;
+	display: block;
+    margin-top: 15px;
+    margin-right: 0px;
+
+}
+.footermenu2{
+	color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 70%;
+	display: block;
+    margin-top: 0px;
+    margin-right: 0px;
+
+}
+.footeritem3 li a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 70%;
+}
+
+.footeritem4 em{
+	color: white;
+	font-size: 150%;
+	font-family: inherit;
+	font-style: inherit;
+    padding-bottom: 15px;
+    }
+    .footeritem4 li a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 70%;
+}
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+nav{
+	display: contents;
+	justify-content: center;
+
+}
+li a{
+    font-size: 20px;
+
+}
+.logo{
+	width: 40%;
+}
+
+.downloadbadge img {
+    width: 120px;
+}
+}
+@media screen and (max-width: 800px) and (min-width:601px) {
+nav{
+	display: contents;
+	justify-content: center;
+
+}
+li a{
+    font-size: 14px;
+}
+.logo{
+	margin-top:10px;
+	width: 30%;
+}
+.carticon {
+    height: 20px;
+    width: 20px;
+}
+.logo{
+	width: 40%;
+}
+.footeritem2 p {
+    margin-top: 10px;
+    font-size: 55%;
+}
+.footeritem3 em {
+    font-size: 100%;
+}
+.footeritem4 em {
+    font-size: 100%;
+}
+.footeritem1 em {
+    font-size: 100%;
+}
+.footerrow{
+	padding-top:10%;
+	padding-left: 5%;
+    padding-right: 5%;
+}
+	.downloadbadge img {
+    width: 100px;
+}
+}
+@media screen and (max-width: 600px) and (min-width:451px){
+li a{
+    font-size: 10px;
+	margin-left:-20%;
+}
+.logo{
+	margin-top:10px;
+	width: 30%;
+}
+.carticon {
+    height: 20px;
+    width: 20px;
+}
+.cartinfo img {
+    height: 60px;
+    width: 60px;
+}
+.cartinfo small{
+	font-size: 10px;
+}
+button{
+	font-size:10px;
+}
+.cartinfo p {
+    font-size: 12px;
+    width: 60px;
+    margin-right: 10px;
+}
+.footeritem2 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+.footeritem3 em {
+    font-size: 70%;
+}
+.footeritem4 em {
+    font-size: 70%;
+}
+.footeritem1 em {
+    font-size: 70%;
+}
+.downloadbadge img {
+    width: 70px;
+}
+.footeritem1 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+}
+@media screen and (max-width: 450px){
+li a{
+    font-size: 8px;
+	margin-left:-20%;
+}
+.logo{
+	margin-top:10px;
+	width: 30%;
+}
+.carticon {
+    height: 20px;
+    width: 20px;
+}
+.cartinfo img {
+    height: 60px;
+    width: 60px;
+}
+.cartinfo small{
+	font-size: 10px;
+}
+button{
+	font-size:10px;
+}
+.cartinfo p {
+    font-size: 12px;
+    width: 60px;
+    margin-right: 10px;
+}
+table {
+    margin-top: 40px;
+    width: 100%;
+}
+td input {
+    width: 30px;
+    height: 20px;
+}
+.totalprice {
+    margin-right: 0%;
+}
+.footeritem2 p {
+    margin-top: 8px;
+    font-size: 45%;
+}
+.footeritem3 em {
+    font-size: 70%;
+}
+.footeritem4 em {
+    font-size: 70%;
+}
+.footeritem1 em {
+    font-size: 70%;
+}
+.downloadbadge img {
+    width: 60px;
+}
+.footeritem1 p {
+    margin-top: 8px;
+    font-size: 45%;
+}	
+.footerrow {
+    padding-top: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+}
